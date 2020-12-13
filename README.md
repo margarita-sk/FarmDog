@@ -1,15 +1,15 @@
 # FarmDog
 
 **The test task**
-[FarmDog includes:]
+
+FarmDog includes:
 - dogs of various ages
 - a training area
 - dog kennels
 - service staff
 - veterinarians
 
-[Explanations:]
-
+Explanations:
 - the main object-dog can be healthy / sick, fed / hungry, trained
 - by age, dogs are divided into puppies, adults, elderly (over 8 years old)
 - simulate one day of the life of the nursery, starting with feeding 
