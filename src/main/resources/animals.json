@@ -1,0 +1,47 @@
+[
+	{
+		"id": "1",
+		"name": "Tom",
+		"age": "3",
+		"healthCondition": "healthy",
+		"hungerCondition": "hungry",
+		"specialization": "police",
+		"levelSkill": "2"
+	},
+	{
+		"id": "2",
+		"name": "Rocky",
+		"age": "2",
+		"healthCondition": "sick",
+		"hungerCondition": "hungry",
+		"specialization": "police",
+		"levelSkill": "2"
+	},
+	{
+		"id": "3",
+		"name": "Shanty",
+		"age": "0.6",
+		"healthCondition": "healthy",
+		"hungerCondition": "hungry",
+		"specialization": "puppy",
+		"levelSkill": "0"
+	},
+	{
+		"id": "4",
+		"name": "Sunny",
+		"age": "0.4",
+		"healthCondition": "healthy",
+		"hungerCondition": "hungry",
+		"specialization": "puppy",
+		"levelSkill": "0"
+	},
+	{
+		"id": "5",
+		"name": "Signy",
+		"age": "0.7",
+		"healthCondition": "sick",
+		"hungerCondition": "hungry",
+		"specialization": "puppy",
+		"levelSkill": "0"
+	}
+]

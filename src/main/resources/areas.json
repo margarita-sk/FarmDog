@@ -1,0 +1,12 @@
+[
+	{
+		"id": "1",
+		"condition": "dirty",
+		"type": "trainingArea"
+	},
+	{
+		"id": "2",
+		"condition": "dirty",
+		"type": "animalKennel"
+	}
+]

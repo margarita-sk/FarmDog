@@ -1,0 +1,37 @@
+[
+	{
+		"id": "1",
+		"name": "Vasiliy",
+		"hoursWorkedPerDay": "0",
+		"maxWorkingHoursPerDay": "8",
+		"position": "veterinarian"
+	},
+	{
+		"id": "2",
+		"name": "Vincent",
+		"hoursWorkedPerDay": "0",
+		"maxWorkingHoursPerDay": "8",
+		"position": "animalKeeper"
+	},
+	{
+		"id": "3",
+		"name": "Mark",
+		"hoursWorkedPerDay": "0",
+		"maxWorkingHoursPerDay": "8",
+		"position": "dogTrainer"
+	},
+	{
+		"id": "4",
+		"name": "Paul",
+		"hoursWorkedPerDay": "0",
+		"maxWorkingHoursPerDay": "8",
+		"position": "animalKeeper"
+	},
+	{
+		"id": "5",
+		"name": "Frida",
+		"hoursWorkedPerDay": "0",
+		"maxWorkingHoursPerDay": "8",
+		"position": "animalKeeper"
+	}
+]
