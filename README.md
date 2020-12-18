@@ -19,3 +19,9 @@ Simulate one day of the life of the farm:
 - cleaning of kennels
 - puppies are trained, adult dogs go to work - to the police, the rescue service, the elderly remain in the enclosures 
 - evening feeding
+
+**Implementation**
+
+The project was implemented as a simple console application.
+
+For building was used maven (version 3.6.3) 
