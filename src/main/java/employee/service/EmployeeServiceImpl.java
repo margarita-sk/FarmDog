@@ -43,19 +43,16 @@ public class EmployeeServiceImpl implements EmployeeService {
 	 */
 	@Override
 	public Employee recieveByPosition(Farm farm, Position position) {
-		Employee employee;
-		try {
-			employee = farm.getEmployees().stream()
-					.filter(worker -> worker.getHoursWorkedPerDay() < worker.getMaxWorkingHoursPerDay()
-							&& worker.getPosition().equals(position))
-					.findFirst().orElseThrow(
-							() -> new EmployeeException("There are no free " + position + " workers on the farm."));
-		} catch (EmployeeException e) {
-			employee = farm.getEmployees().stream().findAny().get();
-			System.out.print(e.getMessage());
-			System.out.println(" So, you make " + employee.getName() + " overwork ");
-			log.error(e);
-		}
+		String warnMessage = "There are no free position workers on the farm. So, you make sombody overwork.";
+
+		Employee employee = farm.getEmployees().stream()
+				.filter(worker -> worker.getHoursWorkedPerDay() < worker.getMaxWorkingHoursPerDay()
+						&& worker.getPosition().equals(position))
+				.findFirst().orElseGet(() -> {
+					System.out.println(warnMessage);
+					log.warn(warnMessage);
+					return farm.getEmployees().parallelStream().findAny().get();
+				});
 		employee.increaseWorkedHours(1);
 		return employee;
 	}
